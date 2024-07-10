@@ -1,0 +1,10 @@
+local players = game:GetService("Players")
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Hi";
+    Text = "" .. players.LocalPlayer.DisplayName;
+    Icon = "rbxassetid://325860158";
+    Icon = "rbxthumb://type=Asset&id=325860158&w=150&h=150";
+    Duration = 5;
+    callbakc = bindableFunction;
+    Button1 = "Hi";
+})
