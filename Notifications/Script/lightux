@@ -1,4 +1,4 @@
-local NotificationLoad = loadstring(game:HttpGet(('https://raw.githubusercontent.com/hooaczx/Script/main/notification%20ui%20library%20by%20treeofplant'),true))()
+local NotificationLoad = loadstring(game:HttpGet(('https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/lightux'),true))()
 
 NotificationLoad:NewNotification({
     ["Mode"] = "Custom",
