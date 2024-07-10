@@ -1,2 +1,2 @@
-local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/Example", true))()
+local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/Hood", true))()
 l:Notify("Title","Descript",10)
