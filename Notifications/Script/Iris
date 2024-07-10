@@ -1,4 +1,4 @@
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/Iris"))()
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
 
 Notification.Notify("Yeeet", "yeet", "rbxthumb://type=Asset&id=17638693708&w=150&h=150", {
     Duration = 2,       
