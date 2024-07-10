@@ -1,4 +1,4 @@
-local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/Akali?token=GHSAT0AAAAAACT3ILX5SRJSI5WNGY43AP4OZUOAYQA"))();
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/Akali"))();
 local Notify = AkaliNotif.Notify;
 
 wait(1);
