@@ -1,0 +1,3 @@
+local NotifyModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/PeaPattern"))()
+NotifyModule:Notify("How is the weather today", 15)
+NotifyModule:Notify("hi", 3)
