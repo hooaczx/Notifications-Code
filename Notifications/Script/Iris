@@ -1,6 +1,6 @@
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/Iris"))()
 
-Notification.Notify("Yeeet", "yeet", "rbxasset://textures/ui/GuiImagePlaceholder.png", {
+Notification.Notify("Yeeet", "yeet", "rbxthumb://type=Asset&id=17638693708&w=150&h=150", {
     Duration = 2,       
     Main = {
         Rounding = true,
