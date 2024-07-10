@@ -1,0 +1,11 @@
+local lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/leadmarker'))()
+
+-- example code below
+lib:notify1('Hi there guys')
+lib:notify1(string.format("<font color='#%s'>leadmarker> </font>%s", lib.accent:ToHex(), 'hello there duuuude'), 3)
+
+lib.accent = Color3.fromRGB(0, 0, 255)
+lib:notify2(string.format("<font color='#%s'>leadmarker> </font>%s", lib.accent:ToHex(), 'hello there duuuude'), 3)
+local test = lib:notify2('sup', 2)
+task.wait(1)
+test:set('hiiiiiiiiiiiiiiiiiiiii')
