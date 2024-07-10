@@ -1,5 +1,5 @@
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/BocusLuke?token=GHSAT0AAAAAACT3ILX5LF2NQST3IGQQBFGGZUOA4JQ"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/BocusLuke2?token=GHSAT0AAAAAACT3ILX4STZ3NPWXGZZROR3OZUOA4WQ"))()
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/BocusLuke"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/BocusLuke2"))()
 
 Notification:Notify(
     {Title = "TEXT TITLE", Description = "DESCRIPTION"},
