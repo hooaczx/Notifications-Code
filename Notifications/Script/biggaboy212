@@ -1,0 +1,13 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/biggaboy212"))()
+
+library:CreateNotification(5, "CenterThenBottom", "Header", "SubHeader", false, true, "Ok", 50,50,200, true, 15)
+
+library:UpdateNotifications("Updated Header", "Updated SubHeading", "rbxasset://textures/ui/GuiImagePlaceholder.png", 200,50,50)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------     with pictures     -----------------------------------------------------------------------------------------------------------------------------------------------------
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Notifications-Code/main/Notifications/biggaboy212"))()
+
+library:CreateNotification(3, "CenterThenBottom", "Header", "SubHeader", "rbxthumb://type=Asset&id=10773000771&w=150&h=150", 125,187,221)
+
+library:UpdateNotifications("Updated Header", "Updated SubHeading", "rbxthumb://type=Asset&id=10773000771&w=150&h=150", 0,255,0)
